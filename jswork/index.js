@@ -5,14 +5,14 @@ if(a>10)
     a=20
 console.log(a)
 }
-console.log(typeof(a))
+console.log(typeof(a))*/
 let a=(x,y)=>{
     console.log("hello Anant")
     return x+y
 }
 let n=a(10,20)
-console.log(n)*/
-function selectlang(clk)
+console.log(n)
+/*function selectlang(clk)
 {
     if(clk=="c")
     {
@@ -30,4 +30,4 @@ else
 }
     console.log("language= "+clk)
 }
-selectlang("c")
+selectlang("c")*/

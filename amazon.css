@@ -1,0 +1,36 @@
+.first{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    align-items: center;
+}
+.img1 img{
+    height: 50px;
+    width: 100px;
+}
+.adress{
+    color: white;
+}
+.in input{
+    width: 300px;
+    height: 30px;
+}
+.but button{
+    color: yellow;
+    font-weight: bold;
+    font-size: large;
+    background-color: black;
+    border: 2px solid yellow;
+}
+.img2 img{
+    height: 40px;
+    width: 50px;
+}
+.second{
+    border-top: 2px solid white;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

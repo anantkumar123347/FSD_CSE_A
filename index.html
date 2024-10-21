@@ -3,32 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css">
     <title>Document</title>
 </head>
 <body>
-    <header href=""><h1>Java</h1>
-    <br>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad unde amet beatae soluta pariatur, temporibus neque? Voluptas odio eius expedita libero tenetur beatae, hic enim accusamus officiis quos ab soluta.</p>
-</header>
-    <table border="2px" >
-        <tbody>
-            <tr>
-                <td colspan="2">main Header</td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="login.html" target="myframe">Login</a>
-                    <br>
-                    <a href="refistration.html" target="myframe">Registration</a>
-                </td>
-                <td>
-                    <iframe src="fox.jpeg" height="300" width="100%" name="myframe"></iframe>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">Footer</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="maindiv">
+        <h1>Enter the number of bulbs</h1>
+        <div class="container">
+            <input type="number" placeholder="Enter the number of bulbs" id="inputc">
+        <button id="btn" onclick="getvalue()">Click me!</button>
+        </div>
+    </div>
+    <script src="project.js"></script>
 </body>
 </html>

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Login from './Login';
 import Registration from './Registration';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 function App() {
   const [userData, setUserData] = useState(null);
@@ -15,10 +16,7 @@ function App() {
         <h3>Login</h3>
         <Login lData={userData} />
       </div>
-      <div>
-        <h3>Registration</h3>
-        <Registration regData={setUserData} />
-      </div>
+      
     </div>
   );
 }
